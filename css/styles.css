@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Metamorphous";
+}
+
+.nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #e0e1dd;
+}
+
+.logo {
+    max-width: 18vh;
+}
+
+/********************************************************************************/
+
+a:hover {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b263b;
+    color: #e0e1dd;
+    font-family: "Metamorphous";
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+/************************* Classes ******************************/
+
+.blurb {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.sexy {
+    margin-top: 2%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    border: solid 6px #e0e1dd;
+}
+
+
+/***************************** Footer ******************************/
+
+.btmnav {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}

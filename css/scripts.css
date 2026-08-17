@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&family=Nosifer&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Metamorphous";
+}
+
+.nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #e0e1dd;
+}
+
+.logo {
+    max-width: 18vh;
+}
+
+/********************************************************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #403d39;
+}
+
+/***************************** Footer ******************************/
+
+.btmbtns {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+
+.btmnav {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
